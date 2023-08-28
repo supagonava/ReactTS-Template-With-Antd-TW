@@ -1,0 +1,72 @@
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Sarabun&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap");
+@import "react-datepicker/dist/react-datepicker.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-job-report-type-deactive {
+    @apply border border-[#1E4490] text-[#1E4490] rounded-full text-center py-3 hover:bg-[#1E4490] hover:cursor-pointer hover:text-white;
+}
+.btn-job-report-type-active {
+    @apply border border-[#1E4490]  rounded-full text-center py-3 bg-[#1E4490] hover:cursor-pointer text-white;
+}
+.input-height {
+    @apply h-[40px];
+}
+.btn-secondary {
+    @apply bg-gray-600 hover:bg-gray-500 text-white px-8 py-4 min-w-[50px] rounded-lg;
+}
+.btn-blue-border {
+    @apply border-blue-800 hover:bg-blue-800 hover:text-white border rounded-md p-4 min-w-[100px];
+}
+.btn-success {
+    @apply bg-green-500 hover:bg-green-700 text-white px-8 py-4 min-w-[50px] rounded-lg;
+}
+.btn-blue-company {
+    @apply bg-[#1E4490] hover:bg-blue-700 text-white px-8 py-4 min-w-[50px] rounded-lg;
+}
+.btn-blue-lighter {
+    @apply bg-[#607EE8] hover:bg-blue-700 text-white px-8 py-4 min-w-[50px] rounded-lg;
+}
+.btn-danger-primary {
+    @apply bg-red-800 hover:bg-red-500 text-white px-8 py-4 min-w-[50px] rounded-lg;
+}
+.btn-danger {
+    @apply rounded-full px-3 py-1 text-[14px] text-white bg-red-700 hover:bg-red-500;
+}
+
+/* Customize cancel button style */
+.swal2-popup .swal2-cancel {
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    box-shadow: none; /* Override default box-shadow property */
+}
+
+textarea.ant-input {
+    color: #373737;
+}
+
+textarea[disabled] {
+    @apply bg-gray-100 text-[#373737] border-gray-300;
+}
+
+input[disabled] {
+    @apply bg-gray-100 text-[#373737] border-gray-300;
+}
+
+input.ant-input[disabled] {
+    @apply text-[#373737];
+}
+
+input.ant-picker-input[disabled] {
+    @apply text-[#373737];
+}
+
+.ant-select-selection-item {
+    @apply text-[#373737];
+}
